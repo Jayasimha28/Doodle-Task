@@ -1,0 +1,5 @@
+# Namespace to organize and isolate resources within a Kubernetes cluster
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: jay
