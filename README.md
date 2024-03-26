@@ -1,9 +1,19 @@
 # Doodle-Task
 
 # Launch Kubernetes cluster locally:
+Using minikube:
 
-# Using minikube: 
-Ref: https://minikube.sigs.k8s.io/docs/start/
+minikube start
+minikube kubectl -- get po -A
+alias kubectl="minikube kubectl --"
+
+minikube addons enable metrics-server
+minikube dashboard
+
+# Ref: 
+https://minikube.sigs.k8s.io/docs/start/
+https://infinispan.org/tutorials/
+https://www.keycloak.org/server/all-config
 
 
 # Custom namespace creation:
