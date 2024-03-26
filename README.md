@@ -17,6 +17,8 @@ https://infinispan.org/tutorials/
 
 https://www.keycloak.org/server/all-config
 
+https://www.keycloak.org/high-availability/connect-keycloak-to-external-infinispan
+
 
 # Custom namespace creation:
 kubectl apply -f Custom-Namespace.yaml
