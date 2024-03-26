@@ -50,7 +50,7 @@ kubectl apply -f Keycloak-Deployment.yaml
 # TO enable Port mapping and access from Browser
 
 
-kubectl port-forward service/keycloak 8085:8080
+kubectl port-forward service/keycloak 8085:8080 -n jay
 
-kubectl port-forward service/infinispan 8086:11222 &
+kubectl port-forward service/infinispan 8086:11222 -n jay
 
