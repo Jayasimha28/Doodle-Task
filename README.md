@@ -59,7 +59,7 @@ kubectl create secret tls my-tls --key="keycloak-jay.com.key" --cert="keycloak-j
 
 kubectl apply -f Keycloak-Deployment.yaml
 
-# TO enable Port mapping and access from Browser
+# To enable Port mapping and access from Browser
 
 
 kubectl port-forward service/keycloak 8085:8080 -n jay
